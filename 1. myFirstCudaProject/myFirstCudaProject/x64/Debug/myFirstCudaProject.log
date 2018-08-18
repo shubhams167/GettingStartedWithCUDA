@@ -1,0 +1,12 @@
+﻿  
+  C:\Users\Shubham\source\repos\myFirstCudaProject\myFirstCudaProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Shubham\source\repos\myFirstCudaProject\myFirstCudaProject\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Shubham\source\repos\myFirstCudaProject\myFirstCudaProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Shubham\source\repos\myFirstCudaProject\myFirstCudaProject\kernel.cu" 
+C:/Users/Shubham/source/repos/myFirstCudaProject/myFirstCudaProject/kernel.cu(32): warning : variable "count" was declared but never referenced
+  kernel.cu
+C:/Users/Shubham/source/repos/myFirstCudaProject/myFirstCudaProject/kernel.cu(32): warning C4101: 'count': unreferenced local variable
+     Creating library C:\Users\Shubham\source\repos\myFirstCudaProject\x64\Debug\myFirstCudaProject.lib and object C:\Users\Shubham\source\repos\myFirstCudaProject\x64\Debug\myFirstCudaProject.exp
+  myFirstCudaProject.vcxproj -> C:\Users\Shubham\source\repos\myFirstCudaProject\x64\Debug\myFirstCudaProject.exe
+  myFirstCudaProject.vcxproj -> C:\Users\Shubham\source\repos\myFirstCudaProject\x64\Debug\myFirstCudaProject.pdb (Full PDB)
